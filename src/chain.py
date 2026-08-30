@@ -1,10 +1,8 @@
 from pathlib import Path
 
-
-
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StructuredOutputParser, StrOutputParser 
+from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableBranch
+from langchain_core.prompts import ChatPromptTemplate
 
 
 from src.schemas import (
